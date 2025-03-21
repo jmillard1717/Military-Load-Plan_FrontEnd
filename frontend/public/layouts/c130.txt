@@ -1,0 +1,1 @@
+C-130J layout grid placeholder (ideally an image or svg canvas in final UI)

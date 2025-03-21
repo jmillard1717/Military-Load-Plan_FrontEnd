@@ -1,0 +1,6 @@
+
+<svg width="700" height="140" viewBox="0 0 700 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="140" fill="#9ca3af"/>
+  <text x="10" y="20" font-size="14">C-5 Cargo Bay Layout</text>
+  <line x1="0" y1="70" x2="700" y2="70" stroke="#000" stroke-dasharray="5,5"/>
+</svg>
