@@ -58,7 +58,7 @@ export default function DragDropGrid({ aircraft }) {
           <div
             key={item.id}
             onMouseDown={e => onDrag(e, item.id)}
-            className={\`absolute p-2 rounded cursor-move \${item.type === "cargo" ? "bg-blue-500" : "bg-green-500"} text-white text-xs\`}
+            className=className={"absolute p-2 rounded cursor-move text-white text-xs " + (item.type === "cargo" ? "bg-blue-500" : "bg-green-500")}
             style={{ left: item.x, top: item.y }}
           >
             {item.label} ({item.weight} lbs)
